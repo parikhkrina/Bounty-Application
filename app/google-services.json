@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "421149078040",
+    "firebase_url": "https://bounty-9e55b.firebaseio.com",
+    "project_id": "bounty-9e55b",
+    "storage_bucket": "bounty-9e55b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421149078040:android:44d022efa25b1b63",
+        "android_client_info": {
+          "package_name": "app.com.loyaltyapp.bounty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421149078040-q5m2qd4tdoo2mfp9ndq6gtb3r0alm728.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgWp1Kl0D2JyaSsYaopA79GDAx90xd86A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421149078040-q5m2qd4tdoo2mfp9ndq6gtb3r0alm728.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

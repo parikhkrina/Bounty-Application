@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_redeem"
+        android:icon="@drawable/ic_action_lend"
+        android:title="@string/title_redeem" />
+
+    <item
+        android:id="@+id/navigation_earn"
+        android:icon="@drawable/ic_action_borrow"
+        android:title="@string/title_earn" />
+
+    <item
+        android:id="@+id/navigation_card"
+        android:icon="@drawable/ic_action_card"
+        android:title="@string/title_card" />
+
+
+
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <app.com.loyaltyapp.bounty.utils.ComicTextView
+        android:padding="3dp"
+        android:gravity="left|center"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:text="Profile"
+        android:textSize="20sp"
+        android:id="@+id/tv_menu_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

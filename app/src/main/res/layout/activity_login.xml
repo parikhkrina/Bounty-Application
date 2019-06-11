@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <ImageView android:src="@mipmap/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <!-- Email Label -->
+        <android.support.design.widget.TextInputLayout
+            android:theme="@style/TextLabel"
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:hint="Email" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Password Label -->
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/txtPassword"
+            android:theme="@style/TextLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:hint="Password"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:textColor="@color/str_textinputcolor"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/btn_login"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/button_bg_rounded_corners"
+            android:padding="12dp"
+            android:textSize="16.5dip"
+            android:text="Login"/>
+
+        <app.com.loyaltyapp.bounty.utils.ComicTextView
+            android:id="@+id/link_forgotpwd"
+            android:textColor="@android:color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Forgot Password?"
+            android:gravity="center"
+            android:textSize="16.5dip"/>
+
+        <!--<LinearLayout-->
+            <!--android:layout_gravity="center"-->
+            <!--android:gravity="center"-->
+            <!--android:weightSum="3"-->
+            <!--android:layout_marginBottom="24dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<View-->
+                <!--android:layout_weight="0.5"-->
+                <!--android:layout_margin="10dp"-->
+                <!--android:background="@android:color/white"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="4dp">-->
+
+            <!--</View>-->
+
+            <!--<com.jayshree.loyaltyapp.utils.ComicTextView-->
+                <!--android:layout_gravity="center"-->
+                <!--android:gravity="center"-->
+                <!--android:textColor="@android:color/white"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="OR"-->
+
+                <!--/>-->
+            <!--<View-->
+                <!--android:layout_weight="0.5"-->
+                <!--android:layout_margin="10dp"-->
+                <!--android:background="@android:color/white"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="4dp">-->
+
+            <!--</View>-->
+
+        <!--</LinearLayout>-->
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <app.com.loyaltyapp.bounty.utils.ComicTextView
+            android:id="@+id/link_signup"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't Have an account?"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:textSize="16.5dip"/>
+            
+            <app.com.loyaltyapp.bounty.utils.ComicTextView
+                android:textColor="@android:color/holo_red_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="24dp"
+                android:text=" Register"
+                android:gravity="center"
+                android:textSize="20dip"
+                android:id="@+id/btn_register"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

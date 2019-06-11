@@ -1,0 +1,63 @@
+<FrameLayout
+    android:background="@drawable/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.com.loyaltyapp.bounty.fragments.TransferFragment">
+
+
+    <LinearLayout android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/bounty_logo_name" />
+
+            <app.com.loyaltyapp.bounty.utils.ComicTextView
+                android:id="@+id/tv_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+        </FrameLayout>
+
+    <Button
+        android:layout_margin="10dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:textColor="@color/white"
+        android:text="Borrow"
+        android:id="@+id/tv_borrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+        <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/button_bg_rounded_corners"
+            android:textColor="@color/white"
+            android:text="Lent"
+            android:id="@+id/tv_lent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</FrameLayout>
